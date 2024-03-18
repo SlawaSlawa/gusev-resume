@@ -34,7 +34,6 @@
     font-display: swap;
 }
 
-
 body {
     color: #000;
     font-family: "Roboto", sans-serif;
@@ -50,6 +49,7 @@ body {
     max-width: 1024px;
     margin: 0 auto;
     padding: 20px 10px;
+    padding-bottom: 0;
 }
 .info {
     width: 85%;
@@ -191,7 +191,10 @@ body {
 .contacts__img {
     position: absolute;
     top: -119px;
-    right: 0;
+    top: -128px;
+    right: 116px;
+    width: 120px;
+    height: 120px;
 }
 
 .skills-list {
