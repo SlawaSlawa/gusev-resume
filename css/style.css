@@ -49,7 +49,7 @@ body {
     flex-direction: row-reverse;
     max-width: 1024px;
     margin: 0 auto;
-    padding: 50px 10px;
+    padding: 20px 10px;
 }
 .info {
     width: 85%;
@@ -63,8 +63,8 @@ body {
 .photo-wrapper::before {
     content: '';
     position: absolute;
-    top: -50px;
-    left: -50px;
+    top: -20px;
+    left: -20px;
     display: block;
     width: 100%;
     height: 100%;
@@ -80,20 +80,20 @@ body {
 
 .title {
     font-weight: 900;
-    font-size: 50px;
-    line-height: 100%;
+    font-size: 42px;
+    line-height: 1;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    margin: 40px 0 10px;
+    margin: 0px 0 10px;
 }
 
 .subtitle {
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 18px;
     font-weight: 900;
-    font-size: 44px;
+    font-size: 40px;
     line-height: 1.3;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -114,7 +114,7 @@ body {
 .title-job {
     position: relative;
     margin-top: 0;
-    margin-bottom: 48px;
+    margin-bottom: 28px;
     font-size: 1em;
     color: #6a6a6a;
 }
@@ -142,7 +142,7 @@ body {
     font-size: 1em;
     line-height: 1;
     margin-top: 0;
-    margin-bottom: 48px;
+    margin-bottom: 28px;
     color: #6a6a6a;
 }
 
@@ -182,6 +182,15 @@ body {
 
 .contacts__link:hover {
     color: #dec802;
+}
+
+.contacts__item--qr {
+    position: relative;
+}
+.contacts__img {
+    position: absolute;
+    top: -119px;
+    right: 0;
 }
 
 .skills-list {
